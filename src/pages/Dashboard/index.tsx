@@ -43,7 +43,7 @@ const Dashboard: React.FC = () => {
             <h2> Sky </h2>
           </div>
           <div>
-            <a href="/">
+            <a href="http://sistemas.casablancaonline.cloudns.pro/crossmedia/sky/2018a/site/login.php">
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
@@ -54,7 +54,7 @@ const Dashboard: React.FC = () => {
             <h2> Totvs </h2>
           </div>
           <div>
-            <a href="/">
+            <a href="https://totvs.casablancaonline.com.br/">
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
@@ -66,6 +66,17 @@ const Dashboard: React.FC = () => {
           </div>
           <div>
             <a href="/">
+              {' '}
+              acessar <FiArrowRight />{' '}
+            </a>
+          </div>
+        </SectionCard>
+        <SectionCard>
+          <div>
+            <h2> Office </h2>
+          </div>
+          <div>
+            <a href="office.com">
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
