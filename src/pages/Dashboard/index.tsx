@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 
 import { FiPower, FiArrowRight } from 'react-icons/fi';
@@ -43,7 +44,10 @@ const Dashboard: React.FC = () => {
             <h2> Sky </h2>
           </div>
           <div>
-            <a href="http://sistemas.casablancaonline.cloudns.pro/crossmedia/sky/2018a/site/login.php">
+            <a
+              href="http://sistemas.casablancaonline.cloudns.pro/crossmedia/sky/2018a/site/login.php"
+              target="_blank"
+            >
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
@@ -54,7 +58,7 @@ const Dashboard: React.FC = () => {
             <h2> Totvs </h2>
           </div>
           <div>
-            <a href="https://totvs.casablancaonline.com.br/">
+            <a href="https://totvs.casablancaonline.com.br/" target="_blank">
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
@@ -76,7 +80,7 @@ const Dashboard: React.FC = () => {
             <h2> Office </h2>
           </div>
           <div>
-            <a href="office.com">
+            <a href="https://www.office.com/" target="_blank">
               {' '}
               acessar <FiArrowRight />{' '}
             </a>
